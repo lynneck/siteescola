@@ -1,0 +1,34 @@
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+   
+}
+
+.titulo__subtitulo__cards{
+    margin: 0;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(193, 207, 208);
+    border-radius: 10% 10%;
+    color:var(--azul-medio);
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 310px;
+    height: 250px;
+    gap: 8px;
+
+
+}
+p{
+    color: blueviolet;
+}

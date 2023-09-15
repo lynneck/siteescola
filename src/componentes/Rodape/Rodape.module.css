@@ -1,0 +1,22 @@
+.rodape {
+    background-color: #d9d9d942;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 16px;
+    padding: 0 16px;
+ 
+    bottom: 0;
+    color: #ffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    
+   
+   
+} 
+      
+    
+  
+
+  

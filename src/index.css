@@ -1,13 +1,59 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    
+  
+  background-image: linear-gradient(155deg, #9cbab9 0, #9cbabb 4.17%, #9cbabe 8.33%, #9cbac0 12.5%, #9db9c2 16.67%, #9fb9c4 20.83%, #a0b8c6 25%, #a3b7c7 29.17%, #a5b6c7 33.33%, #a8b6c8 37.5%, #abb5c8 41.67%, #afb4c8 45.83%, #b2b3c7 50%, #b5b2c6 54.17%, #b9b1c5 58.33%, #bcb0c3 62.5%, #bfb0c1 66.67%, #c1afbf 70.83%, #c4afbc 75%, #c6aeba 79.17%, #c7aeb7 83.33%, #c9aeb4 87.5%, #c9aeb2 91.67%, #caaeaf 95.83%, #caaead 100%);
+
+}
+
+
+:root {
+  --azul-escuro: #041833;
+  --azul-medio: #1875E8;
+  --cor-fonte-principal: #1a0ef4;
+  --cor-fonte-post: #444444;
+  --branco: #FFF;
+  --fonte-principal: 'Raleway', sans-serif;
+  --fonte-secundaria: 'Playfair Display', sans-serif;
+
+  font-family: var(--fonte-principal);
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+a,
+button,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 5rem;
 }

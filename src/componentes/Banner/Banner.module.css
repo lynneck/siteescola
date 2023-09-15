@@ -1,0 +1,29 @@
+.principal{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  
+    
+  
+     
+}
+.bannerImg{
+    margin-top: 6rem;
+    padding: 0 16px;
+    opacity: 0.9;
+    border-radius: 10% / 50%;
+    position: relative;
+    width: 950px;
+}
+
+    
+h1{
+    color: var(--cor-fonte-principal);
+    position: absolute;
+    top: 290px;
+    right: 140px;
+    font-size: 52px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 1;
+  }
+  

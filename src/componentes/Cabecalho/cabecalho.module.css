@@ -1,0 +1,32 @@
+.cabecalho{
+    display: flex;
+ 
+    padding: 0 10px;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #d9d9d914;
+   
+}
+.logoImg{
+
+    margin-top: 1rem;
+    padding: 0 10px;
+    border-radius: 10% / 50%;
+    width: 300px;
+  
+   
+}
+
+
+.cabecalho__Link{
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    gap: 48px;
+    cursor: pointer;
+    padding: 0 16px;
+    
+}
+ 
+
